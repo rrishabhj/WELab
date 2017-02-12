@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <style media="screen">
+    body{
+      background-color: aliceblue;
+    }
+      h1{
+        text-align: center;
+      }
+      .container{
+        padding-left: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Student Registration Form</h1>
+
+    <form class="regForm" method="post">
+      First name:
+    <input type="text" name="firstname"><br><br>
+    Last name:
+    <input type="text" name="lastname"><br><br>
+    Branch:
+  <select name="cars">
+    <option value="IT">IT</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+  </select>
+  <br><br>
+  DOB:
+   <input type="date" name="bday">
+  <br><br>
+  Sex:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+   <input type="radio" name="gender" value="female"> Female<br>
+   <input type="radio" name="gender" value="other"> Other<br><br>
+
+  Additional Comment: <br><br>
+  <textarea name="message" rows="10" cols="30">Desribe briefly</textarea>
+  <br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+  </div>
+
+  </body>
+</html>
